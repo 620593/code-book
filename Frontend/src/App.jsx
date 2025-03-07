@@ -4,7 +4,7 @@ import { Footer, Header } from "./components";
 
 const App = () => {
   return (
-    <div>
+    <div className="App dark:bg-dark">
       <Header />
       <AllRoutes />
       <Footer />
