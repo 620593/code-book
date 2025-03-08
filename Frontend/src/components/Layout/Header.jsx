@@ -2,12 +2,19 @@ import React, { useEffect, useState } from "react";
 import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { Search } from "../Sections/Search";
+import { DropdownLoggedout } from "../Elements/DropdownLoggedout";
+import { DropdownLoggedin } from "../Elements/DropdownLoggedin";
+import { useCart } from "../../context";
 
 export const Header = () => {
+  const { cartList } = useCart();
   const [dark, setDark] = useState(
     JSON.parse(localStorage.getItem("dark")) || false
   );
   const [show, setShow] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+  const token = JSON.parse(sessionStorage.getItem("token"));
+
   useEffect(() => {
     localStorage.setItem("dark", JSON.stringify(dark));
     if (dark) {
@@ -38,11 +45,21 @@ export const Header = () => {
             <Link to="/cart" className="text-gray-700 dark:text-white mr-5">
               <span className="text-2xl bi bi-cart-fill relative">
                 <span className="text-white text-sm absolute -top-1 left-2.5 bg-rose-500 px-1 rounded-full ">
-                  0
+                  {cartList.length}
                 </span>
               </span>
             </Link>
-            <span className="bi bi-person-circle cursor-pointer text-2xl text-gray-700 dark:text-white"></span>
+            <span
+              onClick={() => setDropdown(!dropdown)}
+              className="bi bi-person-circle cursor-pointer text-2xl text-gray-700 dark:text-white"
+            ></span>
+
+            {dropdown &&
+              (token ? (
+                <DropdownLoggedin setDropdown={setDropdown} />
+              ) : (
+                <DropdownLoggedout setDropdown={setDropdown} />
+              ))}
           </div>
         </div>
       </nav>

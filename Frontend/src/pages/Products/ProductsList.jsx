@@ -3,26 +3,33 @@ import { ProductCard } from "../../components";
 import { FilterBar } from "./components/FilterBar";
 import { useLocation } from "react-router-dom";
 import { useTitle } from "../../Hooks/useTitle";
+import { useFilter } from "../../context";
+import { getProductList } from "../../services/productService";
+import { toast } from "react-toastify";
 
 export const ProductsList = () => {
   useTitle("Explore eBooks Collection");
   const [show, setShow] = useState(false);
-  const [products, setProducts] = useState([]);
   const search = useLocation().search;
   const searchTerm = new URLSearchParams(search).get("q");
+  const { products, initialProductList } = useFilter();
 
   useEffect(() => {
     async function fetchProducts() {
-      const response = await fetch(
-        `http://localhost:3000/products?name_like=${
-          searchTerm ? searchTerm : ""
-        }`
-      );
-      const data = await response.json();
-      setProducts(data);
+      try {
+        const data = await getProductList(searchTerm);
+        initialProductList(data);
+      } catch (error) {
+        toast.error(error.message, {
+          closeButton: true,
+          position: "bottom-center",
+          closeOnClick: true,
+        });
+      }
     }
     fetchProducts();
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchTerm]);
   return (
     <main>
       <section className="my-5">

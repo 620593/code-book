@@ -1,3 +1,6 @@
+export { DropdownLoggedin } from "./Elements/DropdownLoggedin";
+export { DropdownLoggedout } from "./Elements/DropdownLoggedout";
+
 export { ScrollToTop } from "./Other/ScrollToTop";
 
 export { Footer } from "./Layout/Footer";

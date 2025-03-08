@@ -2,19 +2,40 @@ import React, { useEffect, useState } from "react";
 import { Rating } from "../components/Elements/Rating";
 import { useParams } from "react-router-dom";
 import { useTitle } from "../Hooks/useTitle";
+import { useCart } from "../context";
+import { getProduct } from "../services/productService";
+import { toast } from "react-toastify";
 
 export const ProductDetail = () => {
+  const { cartList, addToCart, removeFromCart } = useCart();
   const [product, setProduct] = useState({});
   const { id } = useParams();
   useTitle(product.name);
   useEffect(() => {
     async function fetchProducts() {
-      const response = await fetch(`http://localhost:3000/products/${id}`);
-      const data = await response.json();
-      setProduct(data);
+      try {
+        const data = await getProduct(id);
+        setProduct(data);
+      } catch (error) {
+        toast.error(error.message, {
+          closeButton: true,
+          position: "bottom-center",
+          closeOnClick: true,
+        });
+      }
     }
     fetchProducts();
   }, [id]);
+  const [inCart, setIncart] = useState(false);
+
+  useEffect(() => {
+    const productInCart = cartList.find((item) => item.id === product.id);
+    if (productInCart) {
+      setIncart(true);
+    } else {
+      setIncart(false);
+    }
+  }, [cartList, product.id]);
   return (
     <main>
       <section>
@@ -59,7 +80,7 @@ export const ProductDetail = () => {
               </span>
             </p>
             <p className="my-3">
-              {/* {!inCart && (
+              {!inCart && (
                 <button
                   onClick={() => addToCart(product)}
                   className={`inline-flex items-center py-2 px-5 text-lg font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 ${
@@ -69,8 +90,8 @@ export const ProductDetail = () => {
                 >
                   Add To Cart <i className="ml-1 bi bi-plus-lg"></i>
                 </button>
-              )} */}
-              {/* {inCart && (
+              )}
+              {inCart && (
                 <button
                   onClick={() => removeFromCart(product)}
                   className={`inline-flex items-center py-2 px-5 text-lg font-medium text-center text-white bg-red-600 rounded-lg hover:bg-red-800 ${
@@ -80,7 +101,7 @@ export const ProductDetail = () => {
                 >
                   Remove Item <i className="ml-1 bi bi-trash3"></i>
                 </button>
-              )} */}
+              )}
             </p>
             <p className="text-lg text-gray-900 dark:text-slate-200">
               {product.long_description}
