@@ -1,0 +1,591 @@
+{
+  "products": [
+    {
+      "id": 10001,
+      "name": "Basics To Advanced In React",
+      "overview": "Master React.js from scratch and build scalable, production-ready applications.",
+      "long_description": "This course covers everything you need to know about React.js, from basic concepts like components and props to advanced topics such as hooks, context API, and state management. By the end, you'll be able to create dynamic and responsive web applications.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10001.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10002,
+      "name": "Django Framework for Beginners",
+      "overview": "Learn Django step-by-step and build robust web applications with Python.",
+      "long_description": "This course introduces Django's core features, including models, views, templates, and authentication. You'll also learn how to deploy your applications to cloud platforms like Heroku or AWS.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10002.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 2,
+      "best_seller": false
+    },
+    {
+      "id": 10003,
+      "name": "The Future of Design Systems",
+      "overview": "Explore the role of design systems in modern UI/UX development.",
+      "long_description": "Design systems are essential for creating consistent and scalable user interfaces. This course covers tools like Figma, Storybook, and principles of atomic design to help you build reusable components.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10003.avif",
+      "rating": 3,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10004,
+      "name": "The Complete Guide to Backend Development",
+      "overview": "Become a full-stack developer by mastering backend technologies.",
+      "long_description": "This course dives into Node.js, Express.js, databases (SQL and NoSQL), REST APIs, and GraphQL. You'll also learn authentication, authorization, and deployment strategies.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10004.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 7,
+      "best_seller": true
+    },
+    {
+      "id": 10005,
+      "name": "Build a Blockchain from Scratch in Go",
+      "overview": "Learn blockchain technology by building one from scratch using Go.",
+      "long_description": "This course teaches the fundamentals of blockchain, including consensus algorithms, smart contracts, and decentralized applications. You'll implement a fully functional blockchain network.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10005.avif",
+      "rating": 3,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10006,
+      "name": "Frontend Fastlane Plan With Projects",
+      "overview": "Accelerate your frontend skills with hands-on projects.",
+      "long_description": "This course focuses on HTML, CSS, JavaScript, and frameworks like React and Vue.js. You'll complete real-world projects that will enhance your portfolio.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10006.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 10,
+      "best_seller": false
+    },
+    {
+      "id": 10007,
+      "name": "Master the Code Review",
+      "overview": "Improve collaboration and code quality through effective code reviews.",
+      "long_description": "Code reviews are critical for team success. Learn best practices for reviewing code, providing constructive feedback, and maintaining high-quality standards.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10007.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 2,
+      "best_seller": false
+    },
+    {
+      "id": 10008,
+      "name": "JavaScript Basics To Advance With Shubham",
+      "overview": "Master JavaScript from the ground up and build interactive web applications.",
+      "long_description": "This course covers variables, functions, DOM manipulation, ES6+ features, async programming, and more. You'll also work on real-world projects to solidify your skills.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10008.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    },
+    {
+      "id": 10009,
+      "name": "Python Deep Dive With Projects",
+      "overview": "Take your Python skills to the next level with advanced techniques and projects.",
+      "long_description": "This course explores object-oriented programming, decorators, generators, testing, and data analysis. You'll build applications ranging from automation scripts to machine learning models.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10009.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10010,
+      "name": "Mastering Software Technique",
+      "overview": "Enhance your software development skills with proven methodologies.",
+      "long_description": "This course covers agile development, clean coding practices, debugging techniques, and version control. You'll also learn how to write maintainable and efficient code.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10010.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10011,
+      "name": "Web Development Foundation",
+      "overview": "Start your journey into web development with this beginner-friendly course.",
+      "long_description": "This course introduces HTML, CSS, JavaScript, and basic backend development. You'll build your first website and deploy it live.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10011.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    },
+    {
+      "id": 10012,
+      "name": "Mastering Git and GitHub - A Practical Guide",
+      "overview": "Learn version control with Git and GitHub for seamless collaboration.",
+      "long_description": "This course covers branching, merging, pull requests, and resolving conflicts. You'll also learn how to host repositories and contribute to open-source projects.",
+      "price": 9,
+      "poster": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10012.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10013,
+      "name": "Everything About React v16",
+      "overview": "Deep dive into React v16 and its powerful features.",
+      "long_description": "This course focuses on React v16 features like error boundaries, portals, and concurrent mode. You'll also learn performance optimization techniques.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10013.avif",
+      "rating": 4,
+      "in_stock": false,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10014,
+      "name": "Diving Deep With Python 2.7",
+      "overview": "A comprehensive guide to Python 2.7 for legacy applications.",
+      "long_description": "Although Python 2.7 is no longer officially supported, many legacy systems still rely on it. This course helps you understand its syntax, libraries, and migration strategies to Python 3.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10014.avif",
+      "rating": 4,
+      "in_stock": false,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10015,
+      "name": "Kickstart Your UI Design Career",
+      "overview": "Learn the essentials of UI design and land your first job.",
+      "long_description": "This course covers design principles, typography, color theory, prototyping, and user research. You'll create a professional portfolio to showcase your work.",
+      "price": 9,
+      "poster": "https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10015.avif",
+      "rating": 2,
+      "in_stock": false,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10016,
+      "name": "Mastering React Hooks",
+      "overview": "Unlock the power of React Hooks for functional components.",
+      "long_description": "React Hooks revolutionized functional components by enabling state and side-effect management. This course dives into `useState`, `useEffect`, `useContext`, and custom hooks.",
+      "price": 49,
+      "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10016.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10017,
+      "name": "Introduction to Machine Learning",
+      "overview": "Get started with machine learning and build predictive models.",
+      "long_description": "This course introduces supervised and unsupervised learning, regression, classification, neural networks, and model evaluation metrics.",
+      "price": 59,
+      "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10017.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10018,
+      "name": "Data Structures and Algorithms in Python",
+      "overview": "Master essential data structures and algorithms for technical interviews.",
+      "long_description": "This course covers arrays, linked lists, stacks, queues, trees, graphs, sorting algorithms, and dynamic programming. Practice solving problems efficiently.",
+      "price": 39,
+      "poster": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10018.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 4,
+      "best_seller": true
+    },
+    {
+      "id": 10019,
+      "name": "Advanced TypeScript for Developers",
+      "overview": "Take your TypeScript skills to the next level.",
+      "long_description": "This course dives into advanced TypeScript features like generics, decorators, type inference, and module augmentation. Build enterprise-grade applications.",
+      "price": 49,
+      "poster": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10019.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 2,
+      "best_seller": false
+    },
+    {
+      "id": 10020,
+      "name": "Building APIs with Node.js",
+      "overview": "Create robust APIs using Node.js and Express.",
+      "long_description": "This course teaches RESTful API design, middleware usage, authentication, and database integration. Deploy your API to cloud platforms like AWS or Azure.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10020.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    },
+    {
+      "id": 10021,
+      "name": "Optimizing Frontend Performance",
+      "overview": "Boost your website's speed and user experience.",
+      "long_description": "This course covers techniques like lazy loading, code splitting, caching, and minimizing HTTP requests. Learn to use tools like Lighthouse and Webpack for optimization.",
+      "price": 39,
+      "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10021.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 2,
+      "best_seller": false
+    },
+    {
+      "id": 10022,
+      "name": "Cloud Computing with AWS",
+      "overview": "Learn to deploy and manage applications on Amazon Web Services.",
+      "long_description": "This course covers EC2 instances, S3 storage, RDS databases, serverless computing, and security best practices. Gain hands-on experience with AWS services.",
+      "price": 59,
+      "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10022.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    },
+    {
+      "id": 10023,
+      "name": "Mobile App Development with Flutter",
+      "overview": "Build cross-platform mobile apps with Flutter and Dart.",
+      "long_description": "This course covers widgets, state management, navigation, animations, and Firebase integration. Create beautiful and performant apps for iOS and Android.",
+      "price": 49,
+      "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10023.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 4,
+      "best_seller": false
+    },
+    {
+      "id": 10024,
+      "name": "Cybersecurity Fundamentals",
+      "overview": "Protect systems and networks from cyber threats.",
+      "long_description": "This course introduces cryptography, firewalls, intrusion detection, ethical hacking, and risk management. Learn to secure data and prevent attacks.",
+      "price": 59,
+      "poster": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10024.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 2,
+      "best_seller": false
+    },
+    {
+      "id": 10025,
+      "name": "Full-Stack Development with MERN",
+      "overview": "Build full-stack applications using MongoDB, Express, React, and Node.js.",
+      "long_description": "This course covers backend development with Node.js and Express, frontend development with React, and database management with MongoDB. Deploy your app to the cloud.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10025.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    }
+  ],
+  "featured_products": [
+    {
+      "id": 10001,
+      "name": "Basics To Advanced In React",
+      "overview": "Master React.js from scratch and build scalable, production-ready applications.",
+      "long_description": "This course covers everything you need to know about React.js, from basic concepts like components and props to advanced topics such as hooks, context API, and state management. By the end, you'll be able to create dynamic and responsive web applications.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10001.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10002,
+      "name": "Django Framework for Beginners",
+      "overview": "Learn Django step-by-step and build robust web applications with Python.",
+      "long_description": "This course introduces Django's core features, including models, views, templates, and authentication. You'll also learn how to deploy your applications to cloud platforms like Heroku or AWS.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10002.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 2,
+      "best_seller": false
+    },
+    {
+      "id": 10003,
+      "name": "The Future of Design Systems",
+      "overview": "Explore the role of design systems in modern UI/UX development.",
+      "long_description": "Design systems are essential for creating consistent and scalable user interfaces. This course covers tools like Figma, Storybook, and principles of atomic design to help you build reusable components.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10003.avif",
+      "rating": 3,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    }
+  ],
+  "orders": [
+    {
+      "cartList": [
+        {
+          "id": 10004,
+          "name": "The Complete Guide to Backend Development",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 99,
+          "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10004.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 7,
+          "best_seller": true
+        },
+        {
+          "id": 10006,
+          "name": "Frontend Fastlane Plan With Projects",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 99,
+          "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10006.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 10,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 198,
+      "quantity": 2,
+      "user": {},
+      "id": 1
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Django Framework for Beginners",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 48,
+      "quantity": 2,
+      "user": {
+        "name": "ranjith",
+        "email": "ranjith@gmail.com",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "cartList": [
+        {
+          "id": 10006,
+          "name": "Frontend Fastlane Plan With Projects",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 99,
+          "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10006.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 10,
+          "best_seller": false
+        },
+        {
+          "id": 10008,
+          "name": "JavaScript Basics To Advance With Shubham",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10008.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 3,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 128,
+      "quantity": 2,
+      "user": {
+        "name": "ranjith",
+        "email": "ranjith@gmail.com",
+        "id": 1
+      },
+      "id": 3
+    },
+    {
+      "cartList": [
+        {
+          "id": 10006,
+          "name": "Frontend Fastlane Plan With Projects",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 99,
+          "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10006.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 10,
+          "best_seller": false
+        },
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 128,
+      "quantity": 2,
+      "user": {
+        "name": "ranjith",
+        "email": "ranjith@gmail.com",
+        "id": 1
+      },
+      "id": 4
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Master React.js from scratch and build scalable, production-ready applications.",
+          "long_description": "This course covers everything you need to know about React.js, from basic concepts like components and props to advanced topics such as hooks, context API, and state management. By the end, you'll be able to create dynamic and responsive web applications.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10008,
+          "name": "JavaScript Basics To Advance With Shubham",
+          "overview": "Master JavaScript from the ground up and build interactive web applications.",
+          "long_description": "This course covers variables, functions, DOM manipulation, ES6+ features, async programming, and more. You'll also work on real-world projects to solidify your skills.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10008.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 3,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 58,
+      "quantity": 2,
+      "user": {
+        "name": "ranjith",
+        "email": "ranjith@gmail.com",
+        "id": 1
+      },
+      "id": 5
+    },
+    {
+      "cartList": [
+        {
+          "id": 10002,
+          "name": "Django Framework for Beginners",
+          "overview": "Learn Django step-by-step and build robust web applications with Python.",
+          "long_description": "This course introduces Django's core features, including models, views, templates, and authentication. You'll also learn how to deploy your applications to cloud platforms like Heroku or AWS.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 19,
+      "quantity": 1,
+      "user": {
+        "name": "ranjith",
+        "email": "ranjith@gmail.com",
+        "id": 1
+      },
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "email": "ranjith@gmail.com",
+      "password": "$2a$10$pXP.J10Z32TccNAKbFr.kOiFiH9Gn8WomSHSS9fMtw4nO6NzxBS92",
+      "name": "ranjith",
+      "id": 1
+    }
+  ]
+}
