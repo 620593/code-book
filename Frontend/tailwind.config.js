@@ -6,6 +6,10 @@ export default {
     extend: {
       colors: {
         dark: "#1E293B",
+        aqua: {
+          300: "#7FDBFF",
+          500: "#00FFFF",
+        },
       },
     },
   },

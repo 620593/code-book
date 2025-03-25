@@ -7,6 +7,9 @@ import { useTitle } from "../../Hooks/useTitle";
 export const OrderPage = () => {
   useTitle("Order Summary");
   const { state } = useLocation();
+  {
+    console.log(state.data.user);
+  }
   return (
     <main>
       {state.status ? <OrderSuccess data={state.data} /> : <OrderFail />}

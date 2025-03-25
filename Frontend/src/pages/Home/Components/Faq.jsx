@@ -7,25 +7,61 @@ export const Faq = () => {
       id: 1,
       question: "Why should I use CodeBook?",
       answer:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus earum dicta nesciunt, nulla alias consequuntur cumque incidunt saepe mollitia esse! Magni praesentium delectus excepturi nostrum illo repellendus cum eius neque, aperiam dolores quaerat quis dolore magnam doloremque minus sint nemo qui necessitatibus at. Perspiciatis, corrupti cum labore quos odio porro!",
+        "CodeBook offers a vast collection of high-quality eBooks across multiple genres. With instant access, secure payments, and seamless reading experience, it's your go-to platform for digital books.",
     },
     {
       id: 2,
       question: "Can I access my eBook on mobile?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus nobis tempore perferendis qui, quam, atque reprehenderit vero quaerat, assumenda pariatur eveniet. Maxime eaque, neque corrupti ad minus repudiandae consectetur!",
+        "Yes! All eBooks purchased from our store are compatible with mobile, tablet, and desktop devices. You can read them on any ePub or PDF reader of your choice.",
     },
     {
       id: 3,
-      question: "Do you offer refunds?",
+      question: "How do I receive my purchased eBook?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iste dolor deserunt expedita quam fugit et inventore amet pariatur. Animi.",
+        "Once your payment is successfully processed, we will send the eBook directly to your registered email as a downloadable link.",
     },
     {
       id: 4,
-      question: "Do you support Internation payments?",
+      question: "What payment methods do you accept?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iste dolor deserunt expedita quam fugit et inventore amet pariatur. Animi.",
+        "We accept all major credit/debit cards, UPI, PayPal, and international payment options for a hassle-free checkout experience.",
+    },
+    {
+      id: 5,
+      question: "Do you offer refunds?",
+      answer:
+        "Due to the digital nature of our products, we do not offer refunds once an eBook has been delivered. However, if you face any issues, please contact our support team.",
+    },
+    {
+      id: 6,
+      question: "Can I redownload my eBook if I lose access?",
+      answer:
+        "Yes! You can re-download your purchased eBook from the link sent to your email. If the link expires, contact support for assistance.",
+    },
+    {
+      id: 7,
+      question: "Do you support international payments?",
+      answer:
+        "Yes! We accept international payments via credit/debit cards, PayPal, and other global payment gateways.",
+    },
+    {
+      id: 8,
+      question: "Can I share my purchased eBook with others?",
+      answer:
+        "No, each purchase is licensed for individual use only. Sharing or redistributing purchased eBooks is against our terms of service.",
+    },
+    {
+      id: 9,
+      question: "Do you offer any discounts or promotions?",
+      answer:
+        "Yes! We frequently offer discounts and promo codes. Subscribe to our newsletter to stay updated on the latest deals.",
+    },
+    {
+      id: 10,
+      question: "How can I contact support if I have an issue?",
+      answer:
+        "You can reach our customer support team via email or live chat on our website. We're available 24/7 to assist you.",
     },
   ];
 

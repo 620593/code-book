@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom";
 
 export const OrderSuccess = ({ data }) => {
+  function generatePaymentID() {
+    const prefix = "xyz";
+    const randomNumber = Math.floor(Math.random() * 900000000) + 100000000;
+    const paymentID = `${prefix}_${randomNumber}`;
+
+    return paymentID;
+  }
   return (
     <section className="text-xl text-center max-w-4xl mx-auto my-10 py-5 dark:text-slate-100 border dark:border-slate-700 rounded">
       <div className="my-5">
@@ -10,8 +17,8 @@ export const OrderSuccess = ({ data }) => {
       </div>
       <div className="my-5">
         <p>Your order is confirmed.</p>
-        <p>Please check your mail ({data.email}) for the eBook.</p>
-        <p className="my-5">Payment ID: xyz_123456789</p>
+        <p>Please check your mail ({data.user.email}) for the eBook.</p>
+        <p className="my-5">Payment ID: {generatePaymentID()}</p>
       </div>
       <Link
         to="/products"

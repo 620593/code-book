@@ -5,7 +5,8 @@ import { useCart } from "../../context";
 
 export const ProductCard = ({ product }) => {
   const { cartList, addToCart, removeFromCart } = useCart();
-  const { id, name, price, rating, poster, best_seller } = product;
+  const { id, name, price, rating, poster, best_seller, long_description } =
+    product;
   const [incart, setIncart] = useState(false);
 
   useEffect(() => {
@@ -16,8 +17,9 @@ export const ProductCard = ({ product }) => {
       setIncart(false);
     }
   }, [cartList, product.id]);
+
   return (
-    <div className="m-3 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="m-3 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-aqua-500/50 dark:hover:shadow-aqua-300/50">
       <Link to={`/products/${id}`} className="relative">
         {best_seller && (
           <span className="absolute top-4 left-2 px-2 bg-orange-500 bg-opacity-90 text-white rounded">
@@ -33,10 +35,7 @@ export const ProductCard = ({ product }) => {
           </h5>
         </Link>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-          voluptatibus doloribus ratione tenetur adipisci, nulla iusto quas!
-          Esse quia deleniti vero non, quidem nobis iure, dolores minima soluta
-          nostrum quaerat!
+          {long_description.substring(0, 80)}...
         </p>
 
         <div className="flex items-center my-2">
